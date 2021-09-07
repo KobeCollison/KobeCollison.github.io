@@ -1,0 +1,24 @@
+
+.title_text_image {
+    margin: auto;
+    text-align: center;
+}
+
+
+.title_text_image p{
+    text-align: left;
+}
+.title_text_image img{
+    float: left;
+    padding: 0px;
+ 
+}
+
+
+.w3-container img{
+    max-width: 100%;
+}
+
+.biggerText p{
+    font-size: 1.15rem;
+}
