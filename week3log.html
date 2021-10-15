@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="moreStyles.css">
+<script src="scripts/classes/WeekProject.js"></script>
+<script src="scripts/weekProjTracker.js"></script>
 
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
@@ -42,7 +44,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-row">
 
 <!-- Blog entries -->
-<div class="w3-col l8 s12">
+<div class="w3-col l9 s12">
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
@@ -194,47 +196,28 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- END BLOG ENTRIES -->
 </div>
 
-<!-- Introduction menu -->
-<div class="w3-col l4">
+<!-- right side menu -->
+<div class="w3-col l3">
 
-    <!-- other week menu
-
+  <!-- Files used -->
   <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Other Weeks</h4>
-    </div>
-    <ul class="w3-ul w3-hoverable w3-white">
-
-      <li class="w3-padding-16">
-        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Week 2</span><br>
-        <span>TBD</span>
-      </li> 
-      <li class="w3-padding-16">
-        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Week 3</span><br>
-        <span>TBD</span>
-      </li>   
-      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Week 4</span><br>
-        <span>TBD</span>
-      </li>  
-    </ul>
-  </div><hr>
---->
-
-   <!-- About Card -->
-   <div class="w3-card w3-margin">
     <div class="w3-container w3-padding">
       <a href="https://drive.google.com/drive/folders/16AUaiNipH_DciXMcY5mj7OgaLGc8ofYy?usp=sharing">
         <h4>Flies used</h4></a>
     </div>
-    <ul class="w3-ul w3-hoverable w3-white">
 
-     
+  </div><hr>
+
+    <!-- other week menu -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Other Weeks</h4>
+    </div>
+    <ul id="weekList" class="w3-ul w3-hoverable w3-white">
     </ul>
   </div><hr>
+
+]
   
   <!-- Posts -->
   <!-- <div class="w3-card w3-margin">

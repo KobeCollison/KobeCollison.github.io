@@ -25,8 +25,34 @@
 }
 
 .nav{
-    position: fixed;
+    position: sticky;
     top: 0px;
     left: 0;
     width: 100%;
+    z-index: 100;
+}
+
+.mySlides {display:none;}
+
+.w3-button{
+    transition: .2s;
+}
+.w3-button:hover{
+    font-size: 150%;
+}
+
+.w3-col.l3 {
+    position: sticky;
+    top: 5%;
+}
+
+.w3-container .w3-padding{
+    border-bottom: solid black 2px;
+}
+
+.framingWorkSlides img,.logoWorkSlides img{
+    width: 50%;
+}
+.framingWorkSlides,.logoWorkSlides {
+    width: 80%;
 }
