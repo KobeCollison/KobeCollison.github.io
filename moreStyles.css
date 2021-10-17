@@ -56,3 +56,12 @@
 .framingWorkSlides,.logoWorkSlides {
     width: 80%;
 }
+
+.divSlides{
+    margin: auto;
+    
+}
+.divSlides *{
+    vertical-align: middle;
+
+}

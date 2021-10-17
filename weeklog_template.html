@@ -10,6 +10,8 @@
 
 <script src="scripts/classes/WeekProject.js"></script>
 <script src="scripts/weekProjTracker.js"></script>
+<script src="scripts/ManualSlideShow.js"></script>
+
 
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
@@ -248,10 +250,70 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- end of entry -->
 
+
+<!-- Image entry -->
+<!-- manual slideshow -->
+<div class="w3-card-4 w3-margin w3-white">
+  <div class="w3-container">
+  </div>
+
+  <div class="w3-container biggerText">
+
+      <div class="title_text_image">
+          <h3>Taking it to illustrator</h3>
+          <p>
+            Once I actually had a concrete idea in my head, translating it to illustrator was really easy. I had taken a visual design class in high school 
+            where we used illustrator sometimes, but mostly photoshop, which is stil really similar.
+          </p>
+          
+      </div>
+        
+      
+    <div class="w3-row w3-content w3-display-container" id="logoWork_slideshow">
+      <div class="logoWorkSlides title_text_image" style="margin: auto;vertical-align: middle;" >
+        <img src="images/embroidery/logoProcess/1.png" >
+        <p >
+          for the moon, I created two elipses, the first is just a wite circle for the moon itself, the second is a black ellipse
+          to block the rest of the moon to give it the cresent shape
+        </p>
+      </div>
+      <div class="logoWorkSlides title_text_image" style="margin: auto;vertical-align: middle;" >
+        <img src="images/embroidery/logoProcess/2.png" >
+        <p >
+          the swan was created using the pen tool, I used my final sketch as a refrence and drew 
+          a swan sillouhette with a white fill over the dark area of the moon.
+        </p>
+      </div>
+      <div class="logoWorkSlides title_text_image" style="margin: auto;vertical-align: middle;" >
+        <img src="images/embroidery/logoProcess/3.png" >
+        <p >
+          the rest were just small improvements I made. I used the pen tool to make one of the stars then
+          copy/pasted them at different sizes. and the black part at the intersection between the swan and the 
+          moon was to make the difference between the 2 shapes aparent, since they are both no stroke and the same 
+          fill, they would have blended together.
+        </p>
+      </div>
+
+      
+      <button class="w3-button w3-black w3-display-left leftButton">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right rightButton">&#10095;</button>
+  </div>
+      <script>
+          logoAiSlider = new ManualSlideShow("logoWorkSlides","logoWork_slideshow");
+          logoAiSlider.plusDivs(1);
+          </script>
+
+
+  </div>
 </div>
+<hr>
+
+<!-- end of entry -->
+
+
             
 <!-- END BLOG ENTRIES -->
-
+</div>
 <!-- Side menu -->
 <div class="w3-col l3">
 
