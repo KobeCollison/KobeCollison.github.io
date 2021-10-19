@@ -1,4 +1,4 @@
-//     WeekProject(int weeknum,str machine, Date date)
+//WeekProject(int weeknum,str machine, Date date)
 class WeekProject{
     constructor(wn, m,d){
         this.weekNum = wn;
@@ -80,6 +80,12 @@ week5.setHref("week5log.html");
 week5.setImgSrc("images/weekLogos/week5.png")
 publishedProjects.push(week5);
 
+// project 7
+week7 = new WeekProject(7,"SLA Printing",new Date('October 18, 2021 03:24:00'));
+week7.setHref("week7log.html");
+week7.setImgSrc("images/weekLogos/week7.png")
+publishedProjects.push(week7);
+
 
 // appends an li containing week project and 
 
@@ -121,16 +127,10 @@ function addWeekToList(toAdd){
     projStamp.appendChild(document.createElement("BR"));    
     projStamp.appendChild(weekSubtitle);
 
-
-
 }
 
 window.onload=function(){
 
-    // for (let index = 0; index < publishedProjects.length; index++) {
-    //     const element = publishedProjects[index];
-    //     addWeekToList(element);
-    // }
     publishedProjects.forEach(element => addWeekToList(element));
 
 };
