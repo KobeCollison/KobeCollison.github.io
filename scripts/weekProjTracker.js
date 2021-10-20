@@ -80,6 +80,13 @@ week5.setHref("week5log.html");
 week5.setImgSrc("images/weekLogos/week5.png")
 publishedProjects.push(week5);
 
+// project 5
+week6 = new WeekProject(6,"CNC Routing",new Date('October 4, 2021 03:24:00'));
+week6.setHref("week6log.html");
+week6.setImgSrc("images/weekLogos/week6.png")
+publishedProjects.push(week6);
+
+
 // project 7
 week7 = new WeekProject(7,"SLA Printing",new Date('October 18, 2021 03:24:00'));
 week7.setHref("week7log.html");
