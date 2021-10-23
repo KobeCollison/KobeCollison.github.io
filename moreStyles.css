@@ -35,7 +35,7 @@
 .mySlides {display:none;}
 
 .w3-button{
-    transition: .2s;
+    transition: .1s;
 }
 .w3-button:hover{
     font-size: 150%;
@@ -64,4 +64,12 @@
 .divSlides *{
     vertical-align: middle;
 
+
+}
+
+.leftButton {
+    left: -40px;
+}
+.rightButton{
+    right: -40px;
 }

@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html>
+<title>FDM Printing: Kobe Collison</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="moreStyles.css">
+
+<script src="scripts/classes/WeekProject.js"></script>
+<script src="scripts/weekProjTracker.js"></script>
+<script src="scripts/ManualSlideShow.js"></script>
+
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card nav">
+        <a href="index.html" class="w3-bar-item w3-button"><b>KC</b> Digifab</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+
+        </div>
+      </div>
+
+
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+
+
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Week 6: FDM Printing</b></h1>
+  <p>Prusa Rey > Prusa Obi-Wan</p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l9 s12">
+    
+<!-- Entry -->
+<!-- Title Text Image (1) -->
+     <div class="w3-card-4 w3-margin w3-white">
+      <div class="w3-container biggerText">
+
+
+          <div class="title_text_image">
+              <h3>How FDM Printing works</h3>
+              <img src="images/FDM/explain_fdm/1.png" width="300" alt="image">
+              <p style="clear: right;">Fused deposition modeling , or FDM, printing is based on filaments. The printer uses heat to melt and extrude the filament onto a tray
+                as a layer of the design, starting from the bottom. The filament soldifies into the user's design.
+            </p>
+          </div>
+
+      </div>
+    </div>
+    <hr>
+<!-- End of entry -->
+
+<!-- Entry -->
+<!-- Title Text Image (1) -->
+<div class="w3-card-4 w3-margin w3-white">
+  <div class="w3-container biggerText">
+
+
+      <div class="title_text_image">
+          <h3>How PrusaSlicer works</h3>
+          <img src="images/FDM/explain_fdm/PrusaSlicer-1.png" width="250" alt="image">
+          <p style="clear: right;">PrusaSlicer is the program we use to interact with the Prusa FDM printers in the fab lab. 
+            PrusaSlicer can take a 3d model, from a file type like stl, and generate instructions on how to 3d print that model
+            in a Prusa 3d Printer after clicking "slice now". The instructions for the printer are saved as G-code, which the printer
+            uses to actually print out a model.
+      </div>
+
+  </div>
+</div>
+<hr>
+<!-- End of entry -->
+
+
+
+
+<!-- Image entry -->
+<!-- manual slideshow -->
+<div class="w3-card-4 w3-margin w3-white">
+  <div class="w3-container">
+  </div>
+
+  <div class="w3-container biggerText">
+
+      <div class="title_text_image">
+          <h3>Designing in Fusion360</h3>
+          <p style="clear: right;">Befor going to PrusaSlicer, I would have to design the pot I wanted to print in
+            Fusion360.
+        </p>
+          
+      </div>
+        
+      
+    <div class="w3-row w3-content w3-display-container" id="this_slideshow">
+      <div class="divSlides this_classname title_text_image"  >
+        <img src="images/FDM/fusionProcess/1.png" >
+        <p >
+          1. The first part of this process was making the base. I used two circles with dimensions matching that of my desk organizer
+          and extruded the ring created a litle over .25 inches.
+        </p>
+      </div>
+      <div class="divSlides this_classname title_text_image"  >
+          <img src="images/FDM/fusionProcess/2.png" >
+          <p >
+          1. The first part of this process was making the base. I used two circles with dimensions matching that of my desk organizer
+          and extruded the ring created a litle over .25 inches.
+          </p>
+        </div>
+        <div class="divSlides this_classname title_text_image"  >
+          <img src="images/FDM/fusionProcess/3.png" >
+          <p >
+          2. I then used two polygons, one right above the base and the other 3.5 inches above the first,
+            (my final design had 10 sides on each polygon), and used loft to create the body the containing part
+          </p>
+        </div>
+        <div class="divSlides this_classname title_text_image"  >
+          <img src="images/FDM/fusionProcess/4.png" >
+          <p >
+            2. I then used two polygons, one right above the base and the other 3.5 inches above the first,
+            (my final design had 10 sides on each polygon), and used loft to create the body the containing part
+          </p>
+        </div>
+        <div class="divSlides this_classname title_text_image"  >
+          <img src="images/FDM/fusionProcess/5.png" >
+          <p >
+           3. I used loft again, but this time with 2 circles, one an inch above the base, and the other at the top of the pot,
+           and made it a cut, this is the hole in pot for actually holding things. The reason I used loft and not just extrude is 
+           because the circles are different sizes and were almost different shapes.
+          </p>
+        </div>
+        <div class="divSlides this_classname title_text_image"  >
+          <img src="images/FDM/fusionProcess/6.png" >
+          <p >
+            4. I used emboss to put my name on the base of the pot <br>(go me!)
+          </p>
+        </div>
+        <div class="divSlides this_classname title_text_image"  >
+          <img src="images/FDM/fusionProcess/7.png" >
+          <p >
+            5. And with that, my design was ready to print. I rendered and then exported this as an STL file to
+               move on to PrusaSlicer.
+          </p>
+          </div>
+
+          <div class="divSlides this_classname title_text_image"  >
+            <img src="images/FDM/fusionProcess/8.png" >
+            <p >
+              5. And with that, my design was ready to print. I rendered and then exported this as an STL file to
+                 move on to PrusaSlicer.
+            </p>
+            </div>
+
+
+
+      
+      <button class="w3-button w3-black w3-display-left leftButton">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right rightButton">&#10095;</button>
+  </div>
+      <script>
+          logoAiSlider = new ManualSlideShow("this_classname","this_slideshow");
+          logoAiSlider.plusDivs(0);
+          </script>
+
+
+  </div>
+</div>
+<hr>
+
+<!-- end of entry -->
+
+
+<!-- Long entry -->
+<div class="w3-card-4 w3-margin w3-white">
+  <div class="w3-container biggerText">
+
+      <div class="title_text_image">
+          <h3>First Attempt: failure</h3>
+          <img src="images/FDM/failure/1.png"  alt="image">
+          <p>
+              About an hour after I had put my design to print, I recieved a text saying that my print has failed and that I should try again. I would use the info I could gather
+              from the failed attempt to make my final design better than before.
+              
+          </p>
+
+
+          <div class="w3-row w3-content w3-display-container" id="failedPrint_slideshow" >
+            <div class="failedPrint_slides title_text_image"> 
+              <img  src="images/FDM/failure/2.jpg"  > 
+              <p>At first, I thought it was a fatal error in my design. I was for sure it would be that the base was going to be completely sunken in on itself. 
+                When I got to the lab, I was told that my print happened to slide for some unkown reason and that glueing the print tray should help. The base was the 
+                one and only thing that had printed. I went back to my room and observed how the base fit in my desk organizer. It fit almost perfectly,
+                but I decieded to make the base of the final design a little wider and thicker.
+              </p>
+            </div>
+            <div class="failedPrint_slides title_text_image"> 
+              <img  src="images/FDM/failure/3.jpg"  > 
+              <p>At first, I thought it was a fatal error in my design. I was for sure it would be that the base was going to be completely sunken in on itself. 
+                When I got to the lab, I was told that my print happened to slide for some unkown reason and that glueing the print tray should help. The base was the 
+                one and only thing that had printed. I went back to my room and observed how the base fit in my desk organizer. It fit almost perfectly,
+                but I decieded to make the base of the final design a little wider and thicker.
+              </p>
+            </div>
+            
+      
+            
+            <button class="w3-button w3-black w3-display-left leftButton">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right rightButton">&#10095;</button>
+        </div>
+            <script>
+                logoAiSlider = new ManualSlideShow("failedPrint_slides","failedPrint_slideshow");
+                logoAiSlider.showDivs(1);
+                </script>
+
+      </div>
+  
+
+  </div>
+</div>
+<hr>
+<!-- end of entry -->
+
+
+<!-- Entry -->
+<!-- Title Text -->
+<div class="w3-card-4 w3-margin w3-white">
+  <div class="w3-container biggerText">
+
+
+      <div class="title_text_image">
+          <h3>The finished Product</h3>
+      <br><br>
+      </div>
+      <img src="images/FDM/final/1.jpg" style="width: 60%;margin: auto;" alt="image">
+      <br><br><br><br>
+      <img src="images/FDM/final/2.jpg" style="width: 60%;margin: auto;" alt="image">
+
+  </div>
+</div>
+<hr>
+<!-- End of entry -->
+            
+<!-- END BLOG ENTRIES -->
+</div>
+<!-- Side menu -->
+<div class="w3-col l3">
+
+  <!-- resources Card -->
+
+
+
+
+    <!-- other week menu -->
+  <div class="w3-card w3-margin">
+    <a href="https://drive.google.com/drive/folders/1xY6TkNEoq8HnJzPRMMr-3od_nY14fsNG?usp=sharing" target="_blank"> 
+        <div class="w3-container w3-padding">
+          
+            <h4>Files used</h4>
+        </div>
+      </a>
+    <div class="w3-container w3-padding">
+      <h4>Other Weeks</h4>
+    </div>
+    <ul id="weekList" class="w3-ul w3-hoverable w3-white">
+    </ul>
+  </div><hr>
+  
+
+  <hr> 
+
+  
+<!-- END of side elements -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+
+
+</body>
+</html>
+
+
