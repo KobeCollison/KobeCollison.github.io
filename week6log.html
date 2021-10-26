@@ -196,7 +196,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
           <div class="w3-row w3-content w3-display-container" id="failedPrint_slideshow" >
             <div class="failedPrint_slides title_text_image"> 
               <img  src="images/FDM/failure/2.jpg"  > 
-              <p>At first, I thought it was a fatal error in my design. I was for sure it would be that the base was going to be completely sunken in on itself. 
+              <p style="padding: 50px;">At first, I thought it was a fatal error in my design. I was for sure it would be that the base was going to be completely sunken in on itself. 
                 When I got to the lab, I was told that my print happened to slide for some unkown reason and that glueing the print tray should help. The base was the 
                 one and only thing that had printed. I went back to my room and observed how the base fit in my desk organizer. It fit almost perfectly,
                 but I decieded to make the base of the final design a little wider and thicker.
@@ -204,7 +204,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             </div>
             <div class="failedPrint_slides title_text_image"> 
               <img  src="images/FDM/failure/3.jpg"  > 
-              <p>At first, I thought it was a fatal error in my design. I was for sure it would be that the base was going to be completely sunken in on itself. 
+              <p style="padding: 50px;">At first, I thought it was a fatal error in my design. I was for sure it would be that the base was going to be completely sunken in on itself. 
                 When I got to the lab, I was told that my print happened to slide for some unkown reason and that glueing the print tray should help. The base was the 
                 one and only thing that had printed. I went back to my room and observed how the base fit in my desk organizer. It fit almost perfectly,
                 but I decieded to make the base of the final design a little wider and thicker.
@@ -229,24 +229,41 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <hr>
 <!-- end of entry -->
 
-
-<!-- Entry -->
-<!-- Title Text -->
+<!-- Image entry -->
+<!-- manual slideshow(class) -->
 <div class="w3-card-4 w3-margin w3-white">
+  <div class="w3-container">
+  </div>
+
   <div class="w3-container biggerText">
 
-
       <div class="title_text_image">
-          <h3>The finished Product</h3>
-      <br><br>
+          <h3>The final Product</h3>
       </div>
-      <img src="images/FDM/final/1.jpg" style="width: 60%;margin: auto;" alt="image">
-      <br><br><br><br>
-      <img src="images/FDM/final/2.jpg" style="width: 60%;margin: auto;" alt="image">
+        
+      
+    <div class="w3-row w3-content w3-display-container" id="finishedProduct_slideshow">
+      <img class="finishedProduct_slides" src="images/FDM/finishedProduct/1.jpg" style="margin: auto;" >
+      <img class="finishedProduct_slides" src="images/FDM/finishedProduct/2.jpg" style="margin: auto;" >
+      <img class="finishedProduct_slides" src="images/FDM/finishedProduct/3.jpg" style="margin: auto;" >
+
+      
+      <button class="w3-button w3-black w3-display-left leftButton">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right rightButton">&#10095;</button>
+  </div>
+      <script>
+          logoAiSlider = new ManualSlideShow("finishedProduct_slides","finishedProduct_slideshow");
+          logoAiSlider.showDivs(1);
+          </script>
+
 
   </div>
 </div>
 <hr>
+
+<!-- end of entry -->
+
+
 <!-- End of entry -->
             
 <!-- END BLOG ENTRIES -->

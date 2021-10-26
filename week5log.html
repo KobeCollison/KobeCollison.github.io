@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <title>CNC Routing: Kobe Collison</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -32,7 +33,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <header class="w3-container w3-center w3-padding-32"> 
   <h1><b>Week 5: CNC Routing</b></h1>
-  <!-- <p>{subtitle}</p> -->
+  <p>Cut N Cut</p>
 </header>
 
 <!-- Grid -->
@@ -191,23 +192,82 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <!-- end of entry -->
   
 
-  <!-- Entry -->
-<!-- Title Text Image (1) -->
+<!-- Long entry -->
 <div class="w3-card-4 w3-margin w3-white">
   <div class="w3-container biggerText">
 
-    <div class="title_text_image">
-      <h3>The Final Product</h3>
-    </div>
+      <div class="title_text_image">
+          <h3>First Attempt: failure</h3>
 
-  <img src="images/CNC/organizer_pictures/2.jpg" alt="img" >
-  <img src="images/CNC/organizer_pictures/3.jpg" alt="img" >
+          <p>
+            When moving the file from fusion to photoshop, there were settings on how to the file should be opened in illustrator. I thought those settings would not matter, 
+            but it turns out that prompt was asking how to scale the image.While doing the cut, I kept wondering if the dimensions were smaller than they should have been, I kept going nonetheless.
+            I stopped early after cutting out the pocket for the earphones case that I had on me, checked and saw that it was definetly 
+            too small.This was how far I got with that attempt at the organizer. eveything was way too small to even pretend that it was intended.
+            I didn't bother cutting out the pot or cutting the organizer out of the base because it was clear that I would have to start over.
+          </p>
+
+          <div class="w3-row w3-content w3-display-container" id="failedPrint_slideshow" style="width: 70%;" >
+            <img class="failedPrint_slides title_text_image" src="images/CNC/failure/1.jpg" > 
+            <img class="failedPrint_slides title_text_image" src="images/CNC/failure/2.jpg" > 
+            <img class="failedPrint_slides title_text_image" src="images/CNC/failure/3.jpg" > 
+
+            
+            <button class="w3-button w3-black w3-display-left leftButton">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right rightButton">&#10095;</button>
+        </div>
+            <script>
+                logoAiSlider = new ManualSlideShow("failedPrint_slides","failedPrint_slideshow");
+                logoAiSlider.showDivs(1);
+                </script>
+
+
+
+      </div>
+  
 
   </div>
 </div>
 <hr>
-<!-- End of entry -->
+<!-- end of entry -->
 
+
+
+
+
+<!-- Image entry -->
+<!-- manual slideshow(class) -->
+<div class="w3-card-4 w3-margin w3-white">
+  <div class="w3-container">
+  </div>
+
+  <div class="w3-container biggerText">
+
+      <div class="title_text_image">
+          <h3>The final Product</h3>
+      </div>
+        
+      
+    <div class="w3-row w3-content w3-display-container" id="finishedProduct_slideshow">
+      <img class="finishedProduct_slides" src="images/CNC/finishedProduct/1.jpg" style="margin: auto;" >
+      <img class="finishedProduct_slides" src="images/CNC/finishedProduct/2.jpg" style="margin: auto;" >
+      <img class="finishedProduct_slides" src="images/CNC/finishedProduct/3.jpg" style="margin: auto;" >
+
+      
+      <button class="w3-button w3-black w3-display-left leftButton">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right rightButton">&#10095;</button>
+  </div>
+      <script>
+          logoAiSlider = new ManualSlideShow("finishedProduct_slides","finishedProduct_slideshow");
+          logoAiSlider.showDivs(1);
+          </script>
+
+
+  </div>
+</div>
+<hr>
+
+<!-- end of entry -->
 
             
 <!-- END BLOG ENTRIES -->
