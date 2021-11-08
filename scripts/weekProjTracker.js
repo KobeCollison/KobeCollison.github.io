@@ -93,6 +93,12 @@ week7.setHref("week7log.html");
 week7.setImgSrc("images/weekLogos/week7.png")
 publishedProjects.push(week7);
 
+// project: integrate
+weekIntegrate = new WeekProject(": Integrate","4 Machines used",new Date('October 18, 2021 03:24:00'));
+weekIntegrate.setHref("project_integrate.html");
+weekIntegrate.setImgSrc("images/weekLogos/Integrate.jpeg")
+publishedProjects.push(weekIntegrate);
+
 
 // appends an li containing week project and 
 

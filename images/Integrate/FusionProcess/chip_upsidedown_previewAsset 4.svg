@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="421.7" height="115.7" viewBox="0 0 421.7 115.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff0303;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>chip_upsidedown_previewAsset 4</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <polyline class="cls-1" points="387.88 2.4 387.88 40.1 417.29 40.1 417.29 79.7 347.45 79.7 347.45 2.4"/>
+      <path class="cls-2" d="M348.9,115.2H9a8.49,8.49,0,0,1-8.5-8.5V9A8.49,8.49,0,0,1,9,.5H412.7A8.49,8.49,0,0,1,421.2,9v97.7a8.49,8.49,0,0,1-8.5,8.5H348.9Z"/>
+    </g>
+  </g>
+</svg>
