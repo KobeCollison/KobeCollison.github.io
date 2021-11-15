@@ -39,6 +39,7 @@
     transition: .1s;
     border: solid white 2px;
     border-radius: 10%;
+
 }
 .w3-button:hover{
     font-size: 150%;
@@ -47,6 +48,8 @@
 .w3-col.l3 {
     position: sticky;
     top: 5%;
+    max-height: 110vh;
+    overflow: scroll;
 }
 
 .w3-container .w3-padding{

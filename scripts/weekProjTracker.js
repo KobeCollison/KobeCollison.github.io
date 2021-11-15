@@ -94,10 +94,17 @@ week7.setImgSrc("images/weekLogos/week7.png")
 publishedProjects.push(week7);
 
 // project: integrate
-weekIntegrate = new WeekProject(": Integrate","4 Machines used",new Date('October 18, 2021 03:24:00'));
+weekIntegrate = new WeekProject(": Integrate","4 Machines used",new Date('Novemvber, 2021 03:24:00'));
 weekIntegrate.setHref("project_integrate.html");
 weekIntegrate.setImgSrc("images/weekLogos/Integrate.jpeg")
 publishedProjects.push(weekIntegrate);
+
+// project: Final
+weekFinal = new WeekProject(": Final","4 Machines used",new Date('December 6, 2021 03:24:00'));
+weekFinal.setHref("project_final.html");
+weekFinal.setImgSrc("images/weekLogos/final.png")
+publishedProjects.push(weekFinal);
+
 
 
 // appends an li containing week project and 
@@ -122,7 +129,7 @@ function addWeekToList(toAdd){
     const image = document.createElement("IMG");
     image.setAttribute("src",toAdd.getImgSrc() );  
     image.setAttribute("width","50");
-    image.setAttribute("alt","week"+toAdd.getWeekNum()+"log preview");
+    image.setAttribute("alt","project "+toAdd.getWeekNum()+"log preview");
     image.setAttribute("class","w3-left w3-margin-right");
 
     // add week title to stamp
