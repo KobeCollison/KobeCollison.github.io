@@ -135,7 +135,7 @@ function addWeekToList(toAdd){
     // add week title to stamp
     const weekTitle = document.createElement("span");
     weekTitle.setAttribute("class","w3-large");
-    weekTitle.innerHTML = "Week "+toAdd.getWeekNum();
+    weekTitle.innerHTML = "Project "+toAdd.getWeekNum();
 
     // add week subtitle to stamp
     const weekSubtitle = document.createElement("span");
