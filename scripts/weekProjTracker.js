@@ -99,6 +99,12 @@ weekIntegrate.setHref("project_integrate.html");
 weekIntegrate.setImgSrc("images/weekLogos/Integrate.jpeg")
 publishedProjects.push(weekIntegrate);
 
+// // project: Final (geometry)
+// final_geo = new WeekProject("Geometry","Final",new Date('December 6, 2021 03:24:00'));
+// final_geo.setHref("final_geo.html");
+// final_geo.setImgSrc("images/weekLogos/final.png")
+// publishedProjects.push(final_geo);
+
 // project: Final
 weekFinal = new WeekProject(": Final","4 Machines used",new Date('December 6, 2021 03:24:00'));
 weekFinal.setHref("project_final.html");
